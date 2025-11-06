@@ -1,0 +1,42 @@
+<div style="display:flex; gap:10px">
+<div>
+<div class="circle"></div>
+<div class="square"></div>
+</div>
+<div style="transform:scale(-1,-)">
+<div style="position:relative; top:20px" class="square"></div>
+<div style="position:absolute; z-index:-1; top:165px" class="circle"></div>
+</div>
+<div>
+<div class="circle"></div>
+<div class="square"></div>
+</div>
+</div>
+<style>
+  body{
+    margin: 15px 40px;
+    background:#556D7F;
+  }
+  .circle{
+    height:100px;
+    width:100px;
+    background:#EBCB58;
+    border-radius:100%;
+    position:relative;
+    top:19px
+  }
+  .square {
+    width: 100px;
+    height: 150px;
+    background: #EBCB58;
+    position:absolute;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
