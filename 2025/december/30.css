@@ -1,0 +1,62 @@
+<div class="main">
+  <div class="upper"></div>
+  <div class="middle">
+    <div class="mid-box"></div>
+  </div>
+  <div class="lower"></div>
+</div>
+<style>
+  body{
+    background:#E38F66;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    width:100%;
+  }
+  .main{
+   background:#FFFBDA;
+   display:flex;
+   flex-direction:column;
+   justify-content:space-between;
+   align-items:center;
+   height:180px;
+   width:220px;
+   margin:0px 16px 16px 0px;
+  }
+  .upper, .lower{
+    height:60px;
+    width:45.5%;
+    align-self:baseline;
+    background:#E38F66;
+    position:relative;
+  }
+  .middle{
+    height:120px;
+    width:120px;
+    border-radius:50px;
+    z-index:1;
+    top:90px;
+    position:absolute;
+    background:#E38F66;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+  }
+  .lower{
+    align-self:end;
+  }
+  .mid-box{
+    height:50%;
+    width:50%;
+    background:#FFFBDA;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
