@@ -1,0 +1,34 @@
+<style>
+  body{
+    background-color:#37B4BD;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .long-box{
+    height:60px;
+    width:360px;
+    background-color:#F9EAF1;
+    display:flex;
+  }
+  .small-box{
+    width:30px;
+    height:30px;
+  }
+</style>
+<body>
+  <div class="long-box">
+    <div class="small-box"></div>
+    <div class="small-box" style="background-color:#394257;"></div>
+    <div class="small-box"></div>
+    <div class="small-box" style="background-color:#394257;"></div>
+    <div class="small-box"></div>
+    <div class="small-box" style="background-color:#394257;"></div>
+    <div class="small-box"></div>
+    <div class="small-box" style="background-color:#394257;"></div>
+    <div class="small-box"></div>
+    <div class="small-box" style="background-color:#394257;"></div>
+    <div class="small-box"></div>
+    <div class="small-box" style="background-color:#394257;"></div>
+  </div>
+</body>
